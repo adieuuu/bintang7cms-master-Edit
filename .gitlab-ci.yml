@@ -1,0 +1,41 @@
+stages:
+  - "Build"
+  - "Deploy Staging"
+
+build:
+  image: node:10.17.0-alpine
+  stage: "Build"
+  script:
+    - apk add python
+    - npm install
+    - npm run build
+  only:
+    refs:
+      - master
+  artifacts:
+    name: "$CI_JOB_STAGE-$CI_COMMIT_REF_NAME"
+    paths:
+      - ./*
+  when: manual
+
+deploy:
+  image: kroniak/ssh-client
+  stage: "Deploy Staging"
+  environment:
+    name: staging
+    url: https://b7.dev.monstercode.net/
+  script:
+    - mkdir -p ~/.ssh
+    - cp "$STAGING_KEY" ~/.ssh/id_rsa
+    - cp "$STAGING_CONFIG" ~/.ssh/config
+    - chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
+    - ssh -p $STAGING_PORT $STAGING_SERVER "mkdir -p $STAGING_DIR"
+    - cp $STAGING_ENV ./.env
+    - tar -cpjf /tmp/b7-frontend.tar.bz2 .
+    - scp -P $STAGING_PORT /tmp/b7-frontend.tar.bz2 $STAGING_SERVER:$STAGING_DIR
+    - ssh -p $STAGING_PORT $STAGING_SERVER "cd $STAGING_DIR && tar -xjpf b7-frontend.tar.bz2 --strip-components 1"
+    - ssh -p $STAGING_PORT $STAGING_SERVER "cd $STAGING_DIR && docker-compose -f docker-compose.deploy.yml restart next"
+  only:
+    refs:
+      - master
+  when: manual

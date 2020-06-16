@@ -1,0 +1,48 @@
+$enable-gradients:true;
+$enable-shadows:true;
+$container-xs: '375px';
+$container-sm: '768px';
+$container-md: '990px';
+$font-family-base :'Montserrat', sans-serif;
+$primary: #3f51b5;
+$primary-dark: #3f51e2;
+$secondary: #CCCCCC;
+$dark:#000000;
+$grey: #777777;
+$light: #FAFAFA;
+$white: #FFFFFF;
+$theme-colors: (
+  "E6E6E6": #E6E6E6,
+  "808080":#808080,
+  "666666":#666666,
+  "333333":#333333,
+  "999999":#999999,
+  "1BBC65":#1BBC65,
+  "23F182":#23F182,
+  "B2B2B2":#B2B2B2,
+  "FFC113":#FFC113,
+  "CC9600":#CC9600,
+  "707070":#707070,
+  "262626":#262626,
+  "92D03D":#92D03D,
+  "BFD03D":#BFD03D,
+  "E37E34":#E37E34,
+  "50ED99":#50ED99,
+  "FDEE3A":#FDEE3A,
+  "FF5858":#FF5858,
+  "3DD091":#3DD091
+);
+
+body {
+  background-color: $light;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  .footer {
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+

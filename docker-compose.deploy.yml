@@ -1,0 +1,18 @@
+version: '3.7'
+
+networks:
+  b7:
+    external:
+      name: b7
+
+services:
+  next:
+    image: node:10.17.0-alpine
+    working_dir: /opt/app
+    volumes:
+      - .:/opt/app
+    command: [ "sh", "-c", "npm run start" ]
+    networks:
+      b7:
+        aliases:
+          - b7.frontend

@@ -1,0 +1,299 @@
+{
+    "listMobil": [
+        { "id": 1, "picture": "https://cdn.rentalmobilbali.net/wp-content/uploads/2018/08/Toyota-New-Venturer.jpg", "name": "Toyota Inova", "qty": 15, "price": 500000000, "brand": "Toyota" },
+        { "id": 2, "picture": "https://static.carmudi.co.id/Nnpd1BRUnedEmQ8Xq2sU19HihhY=/900x405/https://trenotomotif.com/ncs/images/TOYOTA/Toyota_New_Avanza/Toyota_New_Avanza.jpg", "name": "Toyota Avanza", "qty": 35, "price": 340000000, "brand": "Toyota" },
+        { "id": 3, "picture": "https://ik.imagekit.io/hj8sm3kk7/medium/gallery/exterior/38/1900/toyota-rush-42382.jpg", "name": "Toyota Rush", "qty": 44, "price": 310000000, "brand": "Toyota" },
+        { "id": 4, "picture": "https://d2pa5gi5n2e1an.cloudfront.net/id/images/car_models/Toyota_Sienta/3/exterior/exterior_2L_1.jpg", "name": "Toyota Sienta", "qty": 8, "price": 270000000, "brand": "Toyota" },
+        { "id": 5, "picture": "https://d2pa5gi5n2e1an.cloudfront.net/id/images/car_models/Toyota_Alphard/2/main/L_1.jpg", "name": "Toyota Aphard", "qty": 3, "price": 970000000, "brand": "Toyota" },
+        { "id": 6, "picture": "https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "name": "Toyota Mimpi",  "qty": 6, "price": 2000000000, "brand": "Toyota" },
+        { "id": 7, "picture": "https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "name": "Nissan MMG",  "qty": 10, "price": 1000000000, "brand": "Nissan"},
+        { "id": 8, "picture": "https://images.pexels.com/photos/831475/pexels-photo-831475.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Daihatsu Merah",  "qty": 3, "price": 890000000, "brand": "Daihatsu" },
+        { "id": 9, "picture": "https://images.pexels.com/photos/248687/pexels-photo-248687.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Classic Daihatsu",  "qty": 3, "price": 5000000000, "brand": "Daihatsu" },
+        { "id": 10, "picture": "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Daihatsu Muscle",  "qty": 8, "price": 9800000000, "brand": "Daihatsu" },
+        { "id": 11, "picture": "https://images.pexels.com/photos/1974520/pexels-photo-1974520.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Classic Toyota",  "qty": 4, "price": 8000000000, "brand": "Toyota" },
+        { "id": 12, "picture": "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Mitshubisi Prototype",  "qty": 20, "price": 750000000, "brand": "Mitshubisi" },
+        { "id": 13, "picture": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Mitsubisi Beuh",  "qty": 13, "price": 990000000, "brand": "Mitshubisi" },
+        { "id": 14, "picture": "https://images.pexels.com/photos/446389/pexels-photo-446389.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Mitsubisi Gold Edition",  "qty": 1, "price": 500000000, "brand": "Mitshubisi" },
+        { "id": 15, "picture": "https://images.pexels.com/photos/544542/pexels-photo-544542.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Toyota Red",  "qty": 7, "price": 600000000, "brand": "Toyota" },
+        { "id": 16, "picture": "https://images.pexels.com/photos/303316/pexels-photo-303316.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Film Toyota",  "qty": 12, "price": 300000000, "brand": "Toyota" },
+        { "id": 17, "picture": "https://images.pexels.com/photos/949796/pexels-photo-949796.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Mr.Bean Toyota",  "qty": 22, "price": 7000000000, "brand": "Toyota" },
+        { "id": 18, "picture": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", "name": "Unique Daihatsu",  "qty": 1, "price": 9800000000, "brand": "Daihatsu" }
+    ],
+    "tamanHerbal": [
+        { "id": 1, "title": "Cengkeh", "code": 1123, "isPublished": true },
+		{ "id": 2, "title": "Daun Mint", "code": 1223, "isPublished": false },
+        { "id": 3, "title": "Daun Sirih", "code": 1323, "isPublished": true },
+        { "id": 4, "title": "Jahe", "code": 1423, "isPublished": true }
+    ],
+    "tamanHerbalMarker": [
+        { "value": 1133, "label": 1133, "imageUrl": "http://localhost:3000/static/sample-marker/1133.png" },
+        { "value": 1243, "label": 1243, "imageUrl": "http://localhost:3000/static/sample-marker/1243.png" },
+        { "value": 1413, "label": 1413, "imageUrl": "http://localhost:3000/static/sample-marker/1413.png" }
+    ],
+    "banners": [
+        { "id": 1, "title": "Gambar 1", "picture": "https://i.pinimg.com/originals/6f/1e/86/6f1e86ffdb2926aead1616cc8719ca41.jpg" },
+		{ "id": 2, "title": "Gambar 2", "picture": "https://www.cuckoo.co.id/wp-content/uploads/2018/01/cuckoo-banner-award-winning2-1024x400.jpg" },
+		{ "id": 3, "title": "Gambar 3", "picture": "https://oedipus.com/wp-content/uploads/2017/05/PO-Banner-2048%C3%97800-1024x400.png" }
+    ],
+    "listKota": [
+        { 
+            "id": 1, 
+            "name": "DKI Jakarta",
+            "provinsi": [
+                { "id": 1, "name": "Jakarta Barat" },
+                { "id": 2, "name": "Jakarta Pusat" },
+                { "id": 3, "name": "Jakarta Selatan" },
+                { "id": 4, "name": "Jakarta Timur" },
+                { "id": 5, "name": "Jakarta Utara" }
+            ] 
+        },
+		{ 
+            "id": 2, 
+            "name": "Bandung",
+            "provinsi": [
+                { "id": 1, "name": "Andir" },
+                { "id": 2, "name": "Antapani" },
+                { "id": 3, "name": "Arcamanik" },
+                { "id": 4, "name": "Astana Anyar" },
+                { "id": 5, "name": "Babakan Ciparay" },
+                { "id": 6, "name": "Bandung Kidul" }
+            ]  
+        }
+    ],
+    "listTransaction": [
+        { "id": 1, "name": "Samsung Galaxy Note 10", "qty": 2, "currency": "IDR", "price": 12000000, "total": 24000000, "date": 1561807610234 },
+        { "id": 2, "name": "Apple iPhone XR", "qty": 1, "currency": "IDR", "price": 14500000, "total": 14500000, "date": 1561867610234 },
+        { "id": 3, "name": "Apple MacBook Pro 2019", "qty": 1, "currency": "IDR", "price": 34500000, "total": 34500000, "date": 1562067610234 },
+        { "id": 4, "name": "Apple MacBook Air 2018", "qty": 1, "currency": "IDR", "price": 30500000, "total": 30500000, "date": 1562267610234 },
+        { "id": 5, "name": "Apple MacBook Pro 2017", "qty": 2, "currency": "IDR", "price": 25000000, "total": 50000000, "date": 1562567610234 },
+        { "id": 6, "name": "Apple MacBook Pro 2016", "qty": 2, "currency": "IDR", "price": 22000000, "total": 44000000, "date": 1563067610234 },
+        { "id": 7, "name": "Apple MacBook Pro 2015", "qty": 1, "currency": "IDR", "price": 20000000, "total": 20000000, "date": 1563267610234 },
+        { "id": 8, "name": "Apple MacBook Pro 2014", "qty": 2, "currency": "IDR", "price": 18000000, "total": 36000000, "date": 1563567610234 },
+        { "id": 9, "name": "Apple MacBook Pro 2013", "qty": 5, "currency": "IDR", "price": 15000000, "total": 75000000, "date": 1563967610234 },
+        { "id": 10, "name": "Apple MacBook Pro 2012", "qty": 1, "currency": "IDR", "price": 10500000, "total": 10500000, "date": 1565067610234 },
+        { "id": 11, "name": "Apple MacBook Pro 2011", "qty": 2, "currency": "IDR", "price": 8500000, "total": 17000000, "date": 1565567610234 },
+        { "id": 12, "name": "Apple MacBook Pro 2010", "qty": 1, "currency": "IDR", "price": 6500000, "total": 6500000, "date": 1565667610234 },
+        { "id": 13, "name": "Samsung Galaxy Note 9", "qty": 2, "currency": "IDR", "price": 12000000, "total": 24000000,"date": 1566067610234 },
+        { "id": 14, "name": "Apple iPhone XR", "qty": 1, "currency": "IDR", "price": 14500000, "total": 19000000, "date": 1566667610234 },
+        { "id": 15, "name": "Apple MacBook Pro 2019", "qty": 1, "currency": "IDR", "price": 34500000, "total": 34500000, "date": 1567167610234 },
+        { "id": 16, "name": "Apple MacBook Air 2018", "qty": 1, "currency": "IDR", "price": 30500000, "total": 30500000, "date": 1567242396234 },
+        { "id": 17, "name": "Apple MacBook Pro 2017", "qty": 2, "currency": "IDR", "price": 25000000, "total": 50000000, "date": 1567299975234 },
+        { "id": 18, "name": "Apple MacBook Pro 2016", "qty": 2, "currency": "IDR", "price": 22000000, "total": 44000000, "date": 1567317960234 },
+        { "id": 19, "name": "Apple MacBook Pro 2015", "qty": 1, "currency": "IDR", "price": 20000000, "total": 20000000, "date": 1567425933234 },
+        { "id": 20, "name": "Apple MacBook Pro 2014", "qty": 1, "currency": "IDR", "price": 18000000, "total": 18000000, "date": 1567451120234 },
+        { "id": 21, "name": "Apple MacBook Pro 2013", "qty": 5, "currency": "IDR", "price": 15000000, "total": 75000000, "date": 1567483506234 },
+        { "id": 22, "name": "Apple MacBook Pro 2012", "qty": 1, "currency": "IDR", "price": 10500000, "total": 10500000, "date": 1567501484234 },
+        { "id": 23, "name": "Apple MacBook Pro 2011", "qty": 2, "currency": "IDR", "price": 8500000, "total": 17000000, "date": 1567559070234 },
+        { "id": 24, "name": "Apple MacBook Pro 2010", "qty": 1, "currency": "IDR", "price": 6500000, "total": 6500000, "date": 1567587828234 }
+    ],
+    "lineChart": [
+        { "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400 },
+        { "name": "Page B", "uv": 3000, "pv": 1398, "amt": 2210 },
+        { "name": "Page C", "uv": 2000, "pv": 9800, "amt": 2290 },
+        { "name": "Page D", "uv": 2780, "pv": 3908, "amt": 2000 },
+        { "name": "Page E", "uv": 1890, "pv": 4800, "amt": 2181 },
+        { "name": "Page F", "uv": 2390, "pv": 3800, "amt": 2500 },
+        { "name": "Page G", "uv": 3490, "pv": 4300, "amt": 2100 }
+    ],
+    "horizontalChart": [
+        { "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400 },
+        { "name": "Page B", "uv": 3000, "pv": 1398, "amt": 2210 },
+        { "name": "Page C", "uv": 2000, "pv": 9800, "amt": 2290 },
+        { "name": "Page D", "uv": 2780, "pv": 3908, "amt": 2000 },
+        { "name": "Page E", "uv": 1890, "pv": 4800, "amt": 2181 },
+        { "name": "Page F", "uv": 2390, "pv": 3800, "amt": 2500 },
+        { "name": "Page G", "uv": 3490, "pv": 4300, "amt": 2100 }
+    ],
+    "pieDoubleChart": {
+        "data01": [
+            { "name": "Group A", "value": 400 }, 
+            { "name": "Group B", "value": 300 },
+            { "name": "Group C", "value": 300 }, 
+            { "name": "Group D", "value": 200 }
+        ],
+        "data02": [
+            { "name": "A1", "value": 100 },
+            { "name": "A2", "value": 300 },
+            { "name": "B1", "value": 100 },
+            { "name": "B2", "value": 80 },
+            { "name": "B3", "value": 40 },
+            { "name": "B4", "value": 30 },
+            { "name": "B5", "value": 50 },
+            { "name": "C1", "value": 100 },
+            { "name": "C2", "value": 200 },
+            { "name": "D1", "value": 150 },
+            { "name": "D2", "value": 50 }
+        ]
+    },
+    "radarChart": [
+        { "subject": "Math", "A": 120, "B": 110, "fullMark": 150 },
+        { "subject": "Chinese", "A": 98, "B": 130, "fullMark": 150 },
+        { "subject": "English", "A": 86, "B": 130, "fullMark": 150 },
+        { "subject": "Geography", "A": 99, "B": 100, "fullMark": 150 },
+        { "subject": "Physics", "A": 85, "B": 90, "fullMark": 150 },
+        { "subject": "History", "A": 65, "B": 85, "fullMark": 150 }
+    ],
+    "pieChart": [
+        { "name": "Group A", "value": 400 }, 
+        { "name": "Group B", "value": 300 },
+        { "name": "Group C", "value": 300 }, 
+        { "name": "Group D", "value": 200 }
+    ],
+    "globalChart": [
+        { "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400 },
+        { "name": "Page B", "uv": 3000, "pv": 1398, "amt": 2210 },
+        { "name": "Page C", "uv": 2000, "pv": 9800, "amt": 2290 },
+        { "name": "Page D", "uv": 2780, "pv": 3908, "amt": 2000 },
+        { "name": "Page E", "uv": 1890, "pv": 4800, "amt": 2181 },
+        { "name": "Page F", "uv": 2390, "pv": 3800, "amt": 2500 },
+        { "name": "Page G", "uv": 3490, "pv": 4300, "amt": 2100 }
+    ],
+    "identityType": [
+        { "value": "KTP", "label": "KTP" },
+        { "value": "SIM", "label": "SIM" },
+        { "value": "PASPOR", "label": "PASPOR" }
+    ],
+    "flagAccess": [
+        {
+            "name":"ROLE_SUPERUSER",
+            "isAll": true,
+            "privilege" : [
+                {
+                    "code":"B7AR",
+                    "name": "Augmented Reality",
+                    "subs": [
+                        {
+                            "code": "B7VG",
+                            "name": "View Gallery"
+                        },
+                        {
+                            "code": "B7TH",
+                            "name": "Taman Herbal"
+                        },
+                        {
+                            "code": "B7VF",
+                            "name": "Factory"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "room": [
+        {
+            "id": 1,
+            "name": "Room 1",
+            "avail": 50
+        },
+        {
+            "id": 2,
+            "name": "Room 2",
+            "avail": 50
+        },
+        {
+            "id": 3,
+            "name": "Room 3",
+            "avail": 50
+        },
+        {
+            "id": 4,
+            "name": "Room 4",
+            "avail": 50
+        }
+    ],
+    "galleries": [
+        {
+            "id": 1,
+            "picture": "http://localhost:3000/static/sample-gallery/room-1.jpg"
+        },
+        {
+            "id": 2,
+            "picture": "http://localhost:3000/static/sample-gallery/room-2.jpg" 
+        },
+        {
+            "id": 3,
+            "picture": "http://localhost:3000/static/sample-gallery/room-3.jpg" 
+        }
+    ],
+    "log_transaction" : [
+        {
+            "id": 1,
+            "user": {
+                "id": "ACDCBLACKINBLACK",
+                "name": "Jack"
+            },
+            "activity": "Slot Machine Reward",
+            "date": "2019-11-01",
+            "out": 0,
+            "in": 5,
+            "balance": 95
+        },
+        {
+            "id": 2,
+            "user": {
+                "id": "ACDCBLACKINBLACK",
+                "name": "Jack"
+            },
+            "activity": "Buy Slot Machine Ticket",
+            "date": "2019-11-02",
+            "out": 5,
+            "in": 0,
+            "balance": 90
+        }
+    ],
+
+    "job_portal": [
+        {
+            "id": 1,
+            "name": "Sales Promotion Girl",
+            "education_min": "All",
+            "start": "2019-11-01",
+            "end": "2019-12-20",
+            "total_applicant": 2
+        }
+    ],
+    "provinces": [
+        {
+            "id": 1,
+            "name": "DKI JAKARTA",
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "JAKARTA BARAT",
+                    "province_id": 1
+                },
+                {
+                    "id": 2,
+                    "name": "JAKARTA SELATAN",
+                    "province_id": 1
+                },
+                {
+                    "id": 3,
+                    "name": "JAKARTA TIMUR",
+                    "province_id": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "BANTEN",
+            "cities": [
+                {
+                    "id": 4,
+                    "name": "TANGERANG",
+                    "province_id": 1
+                },
+                {
+                    "id": 5,
+                    "name": "TANGERANG SELATAN",
+                    "province_id": 1
+                },
+                {
+                    "id": 6,
+                    "name": "SERANG",
+                    "province_id": 1
+                }
+            ]
+        }
+    ]
+}
